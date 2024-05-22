@@ -1,11 +1,14 @@
+// src/App.js
 import React from 'react';
-import Restaurants from './components/Resturants';
+import { FastFoodProvider } from './context/FastFoodContext';
+
 
 function App() {
   return (
-    <div className="App">
-      <Restaurants />
-    </div>
+    <FastFoodProvider>
+    <div className="App"></div>
+      <h1>Resturant App</h1>
+    </FastFoodProvider>
   );
 }
 
