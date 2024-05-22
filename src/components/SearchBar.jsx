@@ -17,7 +17,10 @@ return (
             type="text"
             value={input}
             onChange={(e) => setInput(e.target.value)}
+            placeholder="Enter a fast food chain"
         />
         <button onClick={handleSearch}>Search</button>
     </div>
 )
+
+export default SearchBar

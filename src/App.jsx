@@ -1,13 +1,17 @@
 // src/App.js
 import React from 'react';
 import { FastFoodProvider } from './context/FastFoodContext';
+import SearchBar from './components/SearchBar';
+import Location from './components/Location';
 
 
 function App() {
   return (
     <FastFoodProvider>
-    <div className="App"></div>
-      <h1>Resturant App</h1>
+      <div className="App">
+        <SearchBar />
+        <Location />
+      </div>
     </FastFoodProvider>
   );
 }
