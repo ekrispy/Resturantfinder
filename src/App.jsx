@@ -1,8 +1,3 @@
-// src/App.js
-import React from 'react';
-import { FastFoodProvider } from './context/FastFoodContext';
-import SearchBar from './components/SearchBar';
-import Location from './components/Location';
 
 
 function App() {
