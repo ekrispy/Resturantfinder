@@ -60,7 +60,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <h1>Anime Search</h1>
+      <h1>Search for an Anime</h1>
       <Search
         query={state.query}
         onQueryChange={(query) =>

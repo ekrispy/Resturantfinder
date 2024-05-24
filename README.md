@@ -1,9 +1,7 @@
-# React + Vite
+This is a search app to find any animie and get a synopsis for that anime if there is one. All you have to do is search for any keyword associated with an anime of your choosing. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The following technologies were used 
+HTML, CSS, Javascript, React, UseReducer, and Axios 
 
-Currently, two official plugins are available:
+The approach that was taken was using the Jikan Api for react to orchestrate the UI interface. UseReducer hook was used to manage state. To fetch the data Axios was used to make it simplier to fetch data 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# Resturantfinder
